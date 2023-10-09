@@ -6,13 +6,11 @@
     <title>PHP</title>
 </head>
 <body>
-    <form method="GET">
+    <form method="get" action="script.php">
         <input type="text" name="paragraph" id="paragraph">
         <input type="password" name="password" id="password">
-        <button type="submit">invia</button>
+        <input type="submit"></input>
     </form>
-    <p>paragrafo: <?php echo $_GET['paragraph'] ?></p>
-    <p>parola censurata: <?php echo $_GET['password'] ?></p>
     
 </body>
 </html>
