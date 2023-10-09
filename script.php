@@ -1,6 +1,5 @@
 <?php
 
-var_dump($_GET);
 
 $paragraph = $_GET['paragraph'];
 $censured_text = $_GET['censured_text'];
