@@ -5,7 +5,7 @@ var_dump($_GET);
 $paragraph = $_GET['paragraph'];
 $censured_text = $_GET['censured_text'];
 $censured_text_lenght = strlen($censured_text);
-$censured_world = substr_replace($censured_text, str_repeat('*', $censured_text_lenght), $censured_text_lenght);
+$censured_world = substr_replace('', str_repeat('*', $censured_text_lenght), $censured_text_lenght);
 
 
 
