@@ -18,7 +18,7 @@ $censured_world = substr_replace('', str_repeat('*', $censured_text_lenght), $ce
 <body>
    paragrafo: <p><?php echo $_GET["paragraph"]?> <?php echo strlen($paragraph)?></p>
    parola censurata: <p><?php echo $_GET["censured_text"]?> <?php echo strlen($censured_text)?></p>
-   paragrafo con la parola censurata: <p><?php echo $censured_world ?></p>
+   paragrafo con la parola censurata: <p><?php echo $censured_world ?> <?php echo $_GET["paragraph"]?></p>
 
     
 </body>
