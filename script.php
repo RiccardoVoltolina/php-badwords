@@ -4,7 +4,11 @@ var_dump($_GET);
 
 $paragraph = $_GET['paragraph'];
 $censured_text = $_GET['censured_text'];
+
+//strlen per ottenere la lunghezza dell' array
 $censured_text_lenght = strlen($censured_text);
+
+//substr_replace= rimpiazza il testo con una stringa str_repeat= stringa da sostuituire
 $censured_world = substr_replace('', str_repeat('*', $censured_text_lenght), $censured_text_lenght);
 
 
